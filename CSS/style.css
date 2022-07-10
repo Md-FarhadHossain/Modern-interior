@@ -106,7 +106,7 @@ ul.menu {
 }
 
 .main_left_side {
-    width: 25%;
+    width: 34%;
     color: #fff;
 }
 
@@ -115,7 +115,7 @@ ul.menu {
 }
 
 .main_image img {
-    width: 90%;
+    width: 550px;
     transform: scaleX(-1);
 }
 .main_left_side p {
@@ -162,7 +162,8 @@ ul.menu {
     top: -79px;
     background: #000;
     color: #fff;
-    left: 200px;
+    left: -29px;
+    float: right;
 }
 .uesr_info p {
     font-size: .8rem;

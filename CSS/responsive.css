@@ -37,4 +37,26 @@
         font-weight: bold;
         font-size: 1.2rem;
     }
+
+    /* Main content */
+    .main_content {
+        flex-direction: column;
+    }
+    .main_left_side,.main_right_side,.main_image img {
+        width: 100% !important;
+    }
+    .user_details {
+        width: 340px !important;
+        margin: 0 auto;
+        /* float: none !important; */
+        top: -64px !important;
+        left: -8px !important;
+        padding: 1rem 1rem !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main_left_side {
+        width: 35%;
+    }
 }
