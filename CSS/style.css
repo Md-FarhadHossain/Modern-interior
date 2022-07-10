@@ -24,6 +24,9 @@ h2 {
 }
 
 /* Header */
+header#header {
+    height: 15vh;
+}
 .container {
     width: 1080px;
     margin: 0 auto;
@@ -98,6 +101,9 @@ ul.menu {
 
 
 /* Main content */
+main#main {
+    height: 75vh;
+}
 .main_content {
     display: flex;
     justify-content: space-between;
@@ -187,4 +193,8 @@ footer {
     color: #767373;
     text-align: center;
     font-size: .9rem;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
