@@ -14,8 +14,8 @@ font-family: 'Crimson Pro',serif;*/
 body {
     font-family: 'Montserrat', sans-serif;
     background: #181719;
-    ;
     height: 100vh;
+    overflow: hidden;
 }
 
 h1,
