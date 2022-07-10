@@ -180,3 +180,11 @@ ul.menu {
     padding-right: 4rem;
 }
 /* Main content end */
+
+
+/* Footer */
+footer {
+    color: #767373;
+    text-align: center;
+    font-size: .9rem;
+}
