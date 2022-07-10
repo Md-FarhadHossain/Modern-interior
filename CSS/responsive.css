@@ -46,12 +46,15 @@
         width: 100% !important;
     }
     .user_details {
-        width: 340px !important;
+        width: 85% !important;
         margin: 0 auto;
         /* float: none !important; */
         top: -64px !important;
         left: -8px !important;
         padding: 1rem 1rem !important;
+    }
+    .user_body h1 {
+        font-size: 1.4rem !important;
     }
 }
 
