@@ -1,0 +1,12 @@
+.navbar_toggle {
+    transform: translateX(0) !important;
+}
+.ham1_toggle {
+    transform: rotate(40deg) translate(0px,14px);
+}
+.ham2_toggle {
+    transform: rotate(60deg) translateX(-999px);
+}
+.ham3_toggle {
+    transform: rotate(140deg) translate(0px,14px);
+}

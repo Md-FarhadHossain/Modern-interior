@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    #nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background: #000;
+        align-items: center;
+        justify-content: center;
+
+        transform: translateX(-999px);
+        transition: transform .4s ease-in-out;
+    }
+    .hamburger_menu {
+        display: block !important;
+        z-index: 999;
+    }
+    .hamburger_menu * {
+        width: 38px;
+        height: 3px;
+        background: #fff;
+        margin: .5rem 0;
+
+        transition: transform .3s ease-in-out;
+    }
+    .menu li {
+        margin: 0 !important;
+    }
+    ul.menu {
+        flex-direction: column;
+        gap: 4rem;
+        text-align: center;
+    }
+    .menu a {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+}

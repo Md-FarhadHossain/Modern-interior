@@ -1,3 +1,5 @@
+@import url(responsive.css);
+@import url(jsCustomizse.css);
 /* font-family: 'Lora',serif;
 font-family: 'Montserrat',sans-serif;
 font-family: 'Crimson Pro',serif;*/
@@ -79,14 +81,15 @@ ul.menu {
     color: #fff !important;
 }
 
-.active {
-    border-bottom: 3px solid #fff;
-    font-weight: 500;
+.active::after {
+    transform: scaleX(1) !important;
 }
-
 .menu a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+}
+.hamburger_menu {
+    display: none;
 }
 
 /* Header end */

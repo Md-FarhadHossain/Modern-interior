@@ -1,0 +1,11 @@
+const hamburgerMenu = document.querySelector('.hamburger_menu')
+const ham1 = document.querySelector('.hamburger_menu1')
+const ham2 = document.querySelector('.hamburger_menu2')
+const ham3 = document.querySelector('.hamburger_menu3')
+const navbar = document.getElementById('nav')
+hamburgerMenu.addEventListener('click', () => {
+    navbar.classList.toggle('navbar_toggle')
+    ham1.classList.toggle('ham1_toggle')
+    ham2.classList.toggle('ham2_toggle')
+    ham3.classList.toggle('ham3_toggle')
+})
